@@ -1,0 +1,7 @@
+Steve,1942,10
+Tony,316,5
+I AM GROOT,59,3
+Natasha,50,0
+Thor,35,8
+Bruce,30,6
+Clint,11,1

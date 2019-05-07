@@ -15,12 +15,14 @@ public class LivesTracker : MonoBehaviour
         lives -= 1;
         LivesRemaining.text = lives.ToString();
         Debug.Log(lives);
+        GameManager.instance.lives--;
     }
     public void IncreaseLives()
     {
         lives += 1;
         LivesRemaining.text = lives.ToString();
         Debug.Log(lives);
+        GameManager.instance.lives++;
     }
 
 }

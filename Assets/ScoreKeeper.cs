@@ -12,6 +12,7 @@ public class ScoreKeeper : MonoBehaviour
         newScore += 1;
         NewScore.text = newScore.ToString();
         Debug.Log(newScore);
+        GameManager.instance.score++;
     }
 
     public void DecreaseScore() // clicking on - button decreases score
@@ -19,6 +20,7 @@ public class ScoreKeeper : MonoBehaviour
         newScore -= 1;
         NewScore.text = newScore.ToString();
         Debug.Log(newScore);
+        GameManager.instance.score--;
     }
  
 }
